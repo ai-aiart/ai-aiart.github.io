@@ -9,7 +9,7 @@ profile:
   image: aiartSquare.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
+    <p>Building 21.a</p>
     <p>Building 20, room ...</p>
     <p>Milan, Italy</p>
 
