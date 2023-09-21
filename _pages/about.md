@@ -2,15 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Adaptive Radiotherapy Research Lab.
 
 profile:
   align: right
   image: aiartSquare.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Building 21.a</p>
-    <p>Building 20, room ...</p>
+    <p>Building 21, Politecnico di Milano</p>
     <p>Milan, Italy</p>
 
 news: true  # includes a list of news items
@@ -19,8 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to the website of [Lab Name], where cutting-edge technology meets the future of healthcare. We are a research lab situated at [University Name], dedicated to the field of radiotherapy through the innovative application of computer vision and artificial intelligence (AI).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Adaptive radiotherapy (ART) is an advanced approach to cancer treatment that continuously adjusts radiation therapy plans based on the  patient's anatomy and needs. As opposed to applying radiation to the whole patient's body, with ART minimizes the radiation each patient receives on healthy tissue during their treatment. This offers a highly precise and patient-centric solution that can improve treatment outcomes, particularly in cases where tumors are located near critical organs or structures.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+The workflow of ART techniques involves several specialists with different backgrounds. For example, the radiation oncologist has to segment the target volume of the cancer and segment also the organs that are at risk of being hit with radiation.
+
+And our <b>mission</b> is to conduct research on improving computer vision techniques and sharing them in a way that improves the workflow of the radiotherapy planning.
