@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to the website of [Lab Name], where cutting-edge technology meets the future of healthcare. We are a research lab situated at [University Name], dedicated to the field of radiotherapy through the innovative application of computer vision and artificial intelligence (AI).
+Welcome to the website of AI-ART, where cutting-edge technology meets the future of healthcare. We are a research lab situated at [University Name], dedicated to the field of radiotherapy through the innovative application of computer vision and artificial intelligence (AI).
 
 Adaptive radiotherapy (ART) is an advanced approach to cancer treatment that continuously adjusts radiation therapy plans based on the  patient's anatomy and needs. As opposed to applying radiation to the whole patient's body, with ART minimizes the radiation each patient receives on healthy tissue during their treatment. This offers a highly precise and patient-centric solution that can improve treatment outcomes, particularly in cases where tumors are located near critical organs or structures.
 
