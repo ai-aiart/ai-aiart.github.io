@@ -1,84 +1,44 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{Brioso2023,
+   abstract = {Radiotherapy (RT) is a key component in the treatment of various cancers, including Acute Lymphocytic Leukemia (ALL) and Acute Myelogenous Leukemia (AML). Precise delineation of organs at risk (OARs) and target areas is essential for effective treatment planning. Intensity Modulated Radiotherapy (IMRT) techniques, such as Total Marrow Irradiation (TMI) and Total Marrow and Lymph node Irradiation (TMLI), provide more precise radiation delivery compared to Total Body Irradiation (TBI). However, these techniques require time-consuming manual segmentation of structures in Computerized Tomography (CT) scans by the Radiation Oncologist (RO). In this paper, we present a deep learning-based auto-contouring method for segmenting Planning Target Volume (PTV) for TMLI treatment using the U-Net architecture. We trained and compared two segmentation models with two different loss functions on a dataset of 100 patients treated with TMLI at the Humanitas Research Hospital between 2011 and 2021. Despite challenges in lymph node areas, the best model achieved an average Dice score of 0.816 for PTV segmentation. Our findings are a preliminary but significant step towards developing a segmentation model that has the potential to save radiation oncologists a considerable amount of time. This could allow for the treatment of more patients, resulting in improved clinical practice efficiency and more reproducible contours.},
+   author = {R.C. Brioso and D. Dei and C. Franzese and N. Lambri and D. Loiacono and P. Mancosu and M. Scorsetti},
+   doi = {10.1109/CBMS58004.2023.00265},
+   isbn = {9798350312249},
+   issn = {10637125},
+   journal = {Proceedings - IEEE Symposium on Computer-Based Medical Systems},
+   keywords = {PTV,TMI,TMLI,deep learning,radiotherapy,segmentation},
+   title = {Segmentation of Planning Target Volume in CT Series for Total Marrow Irradiation Using U-Net},
+   volume = {2023-June},
+   year = {2023},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+@article{Dei2023,
+   abstract = {Background: The total marrow and lymph node irradiation (TMLI) target includes the bones, spleen, and lymph node chains, with the latter being the most challenging structures to contour. We evaluated the impact of introducing internal contour guidelines to reduce the inter- and intraobserver lymph node delineation variability in TMLI treatments. Methods: A total of 10 patients were randomly selected from our database of 104 TMLI patients so as to evaluate the guidelines’ efficacy. The lymph node clinical target volume (CTV_LN) was recontoured according to the guidelines (CTV_LN_GL_RO1) and compared to the historical guidelines (CTV_LN_Old). Both topological (i.e., Dice similarity coefficient (DSC)) and dosimetric (i.e., V95 (the volume receiving 95% of the prescription dose) metrics were calculated for all paired contours. Results: The mean DSCs were 0.82 ± 0.09, 0.97 ± 0.01, and 0.98 ± 0.02, respectively, for CTV_LN_Old vs. CTV_LN_GL_RO1, and between the inter- and intraobserver contours following the guidelines. Correspondingly, the mean CTV_LN-V95 dose differences were 4.8 ± 4.7%, 0.03 ± 0.5%, and 0.1 ± 0.1%. Conclusions: The guidelines reduced the CTV_LN contour variability. The high target coverage agreement revealed that historical CTV-to-planning-target-volume margins were safe, even if a relatively low DSC was observed.},
+   author = {D. Dei and N. Lambri and S. Stefanini and V. Vernier and R.C. Brioso and L. Crespi and E. Clerici and L. Bellu and C. De Philippis and D. Loiacono and P. Navarria and G. Reggiori and S. Bramanti and M. Rodari and S. Tomatis and A. Chiti and C. Carlo-Stella and M. Scorsetti and P. Mancosu},
+   doi = {10.3390/cancers15051536},
+   issn = {20726694},
+   issue = {5},
+   journal = {Cancers},
+   keywords = {TMLI,clinical target volume,conditioning regimen,contour definition,guidelines,interobserver variability,leukemia,radiotherapy},
+   title = {Internal Guidelines for Reducing Lymph Node Contour Variability in Total Marrow and Lymph Node Irradiation},
+   volume = {15},
+   year = {2023},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{Lambri2023,
+   abstract = {Total marrow (lymph node) irradiation (TMI/TMLI) delivery requires more time than standard radiotherapy treatments. The patient’s extremities, through the joints, can experience large movements. The reproducibility of TMI/TMLI patients’ extremities was evaluated to find the best positioning and reduce unwanted movements. Eighty TMI/TMLI patients were selected (2013–2022). During treatment, a cone-beam computed tomography (CBCT) was performed for each isocenter to reposition the patient. CBCT-CT pairs were evaluated considering: (i) online vector shift (OVS) that matched the two series; (ii) residual vector shift (RVS) to reposition the patient’s extremities; (iii) qualitative agreement (range 1–5). Patients were subdivided into (i) arms either leaning on the frame or above the body; (ii) with or without a personal cushion for foot positioning. The Mann-Whitney test was considered (p < 0.05 significant). Six-hundred-twenty-nine CBCTs were analyzed. The median OVS was 4.0 mm, with only 1.6% of cases ranked < 3, and 24% of RVS > 10 mm. Arms leaning on the frame had significantly smaller RVS than above the body (median: 8.0 mm/6.0 mm, p < 0.05). Using a personal cushion for the feet significantly improved the RVS than without cushions (median: 8.5 mm/1.8 mm, p < 0.01). The role and experience of the radiotherapy team are fundamental to optimizing the TMI/TMLI patient setup.},
+   author = {N. Lambri and S.L. Antonetti and D. Dei and L. Bellu and S. Bramanti and R.C. Brioso and C. Carlo-Stella and I. Castiglioni and E. Clerici and L. Crespi and C. De Philippis and C. Galdieri and D. Loiacono and P. Navarria and G. Reggiori and R. Rusconi and S. Tomatis and M. Scorsetti and P. Mancosu},
+   doi = {10.3390/curroncol30040309},
+   issn = {17187729},
+   issue = {4},
+   journal = {Current Oncology},
+   keywords = {patient positioning,radiotherapy (RT),reproducibility,total marrow irradiation (TMI),total marrow lymph node irradiation (TMLI),volumetric modulated arc therapy (VMAT)},
+   title = {Impact of the Extremities Positioning on the Set-Up Reproducibility for the Total Marrow Irradiation Treatment},
+   volume = {30},
+   year = {2023},
 }
