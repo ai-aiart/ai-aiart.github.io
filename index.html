@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI-ART · AI for Adaptive Radiation Therapy</title>
+  <meta name="description" content="AI-ART: research on computer vision and artificial intelligence for adaptive radiation therapy: auto-segmentation, image synthesis and trustworthy AI for the radiotherapy workflow.">
+  <meta property="og:title" content="AI-ART · AI for Adaptive Radiation Therapy">
+  <meta property="og:description" content="Computer vision and AI research for adaptive radiation therapy.">
+  <meta property="og:image" content="https://ai-aiart.github.io/assets/img/aiartSquare.png">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="icon" href="assets/img/aiart-mark.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="assets/img/fav_icon_aiart.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="AI-ART home"><img src="assets/img/aiart-logo.svg" alt="AI-ART" width="76" height="22"></a>
+      <button class="nav__toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+      <nav class="nav" id="nav">
+        <a href="./" aria-current="page">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <p class="hero__eyebrow">Artificial Intelligence · Adaptive Radiation Therapy</p>
+        <svg class="hero__logo" viewBox="110 720 1715 490" role="img" aria-label="AI-ART">
+          <g fill="currentColor">
+            <path fill-rule="evenodd" d="M142,1193 L241,738 L289,738 L387,1193 L326,1193 L309,1105 L219,1105 L201,1193 Z M228,1056 L264,826 L300,1056 Z"/>
+            <path d="M122,1056 C160,1053 200,1058 240,1055 C290,1053 340,1058 401,1055 L400,1080 L401,1104 C350,1106 300,1102 250,1105 C200,1107 160,1103 122,1105 L123,1080 Z"/>
+            <rect x="453" y="738" width="61" height="455"/>
+            <circle class="ring" cx="782" cy="881" r="130" fill="none" stroke="currentColor" stroke-width="46"/>
+            <path class="couch" d="M618,1056 C680,1053 720,1058 782,1055 C840,1053 890,1058 946,1055 L945,1080 L946,1104 C890,1106 840,1102 782,1105 C720,1107 680,1103 618,1105 L619,1080 Z"/>
+            <path fill-rule="evenodd" d="M1045,1193 L1144,738 L1192,738 L1290,1193 L1229,1193 L1212,1105 L1122,1105 L1104,1193 Z M1131,1056 L1167,826 L1203,1056 Z"/>
+            <path d="M1026,1057 C1064,1054 1104,1059 1144,1056 C1194,1054 1244,1059 1303,1056 L1302,1081 L1303,1105 C1252,1107 1202,1103 1152,1106 C1102,1108 1062,1104 1026,1106 L1027,1081 Z"/>
+            <path fill-rule="evenodd" d="M1356,1193 L1356,738 L1438,738 C1505,738 1542,782 1542,860 C1542,926 1516,962 1479,971 L1563,1193 L1500,1193 L1417,970 L1417,1193 Z M1417,789 L1430,789 C1466,789 1482,812 1482,866 C1482,918 1464,939 1417,940 Z"/>
+            <path d="M1610,738 L1810,738 L1810,792 L1741,792 L1741,1193 L1681,1193 L1681,792 L1610,792 Z"/>
+          </g>
+        </svg>
+        <p class="hero__lede">Computer vision and machine learning that make <em>adaptive radiotherapy</em> faster, more precise and more trustworthy.</p>
+        <div class="hero__cta">
+          <a class="btn btn--solid" href="publications.html">Publications</a>
+          <a class="btn btn--ghost" data-link="github" href="https://github.com/ai-aiart" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap two-col">
+        <div class="prose">
+          <p class="section__label">About</p>
+          <h2>Bringing AI into the radiotherapy workflow</h2>
+          <p>AI-ART started as a PhD research line at <strong>Politecnico di Milano</strong>, in close collaboration with the radiotherapy department of <strong>Humanitas Research Hospital</strong>. We study computer vision and artificial intelligence for adaptive radiation therapy (ART).</p>
+          <p>ART continuously adjusts a treatment plan to the patient's anatomy as it changes during the course of therapy. Instead of irradiating large regions, it concentrates dose on the target and spares healthy tissue. This matters most when tumours lie close to critical organs.</p>
+          <p>Each adaptation cycle involves imaging, contouring of targets and organs at risk, and re-planning by a multidisciplinary team. Our <strong>mission</strong> is to build and openly share methods that make these steps faster and more reproducible, and safer to automate.</p>
+        </div>
+        <div>
+          <p class="section__label">At a glance</p>
+          <div class="stats">
+            <div class="stat"><b id="stat-pubs">–</b><span>Publications</span></div>
+            <div class="stat"><b id="stat-years">–</b><span>Active years</span></div>
+            <div class="stat"><b id="stat-code">–</b><span>Open-source code</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <p class="section__label">Research themes</p>
+        <div class="themes">
+          <div class="theme">
+            <span class="theme__n">01</span>
+            <h3>Auto-segmentation</h3>
+            <p>Deep learning contouring of targets and organs at risk, including the planning target volume and lymph nodes for total marrow and lymph node irradiation (TMLI).</p>
+          </div>
+          <div class="theme">
+            <span class="theme__n">02</span>
+            <h3>Image synthesis &amp; inpainting</h3>
+            <p>CBCT-to-CT translation, synthetic CT generation and 3D inpainting with GANs and diffusion models.</p>
+          </div>
+          <div class="theme">
+            <span class="theme__n">03</span>
+            <h3>Trustworthy AI</h3>
+            <p>Uncertainty estimation for segmentation QA, efficient explainability for 3D models, and fairness analysis across patient groups.</p>
+          </div>
+          <div class="theme">
+            <span class="theme__n">04</span>
+            <h3>Planning automation</h3>
+            <p>Learning-based optimisation of VMAT field geometry, automatic base-dose planning, and ML-driven patient-specific quality assurance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <p class="section__label">Selected publications</p>
+        <ol class="pubs pubs--compact" id="selected-pubs"></ol>
+        <p class="more"><a href="publications.html">All publications →</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <img src="assets/img/aiart-logo.svg" alt="AI-ART" width="70" height="20">
+        <p>AI for Adaptive Radiation Therapy. Research on computer vision for the radiotherapy workflow.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a data-link="github" href="https://github.com/ai-aiart" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="legal">© <span id="year">2026</span> AI-ART · Politecnico di Milano, Milan, Italy</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
