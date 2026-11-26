@@ -17,7 +17,7 @@
 
   ICON.github = ICON.code;
 
-  var TYPE_LABEL ={ journal: "Journal", conference: "Conference", preprint: "Preprint", abstract: "Abstract" };
+  var TYPE_LABEL = { journal: "Journal", conference: "Conference", chapter: "Book chapter", preprint: "Preprint", abstract: "Abstract" };
 
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -105,7 +105,7 @@
     var counts = { all: pubs.length };
     pubs.forEach(function (p) { counts[p.type] = (counts[p.type] || 0) + 1; });
     var filterEl = $("#pub-filters");
-    filterEl.innerHTML = ["all", "journal", "conference", "preprint", "abstract"]
+    filterEl.innerHTML = ["all", "journal", "conference", "chapter", "preprint", "abstract"]
       .filter(function (t) { return counts[t]; })
       .map(function (t) {
         return '<button type="button" class="filter' + (t === "all" ? " is-active" : "") + '" data-type="' + t + '" aria-pressed="' + (t === "all") + '">' +
